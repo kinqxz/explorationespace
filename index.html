@@ -1,28 +1,77 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0" />
         <title>Accueil</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/png" href="Shortcut-icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <header>
-            <a href="index.html" class="logo"><img src="logo.png" alt="logo"></a>
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="trous-noir.html">Les Trous Noirs</a></li>
-                    <li><a href="eruptions-solaires.html">Les Éruptions Solaires</a></li>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><img src="logo.png"></a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/index.html" class="navbar__links">Accueil</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/trous-noir.html" class="navbar__links">Trous Noirs</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/eruptions-solaires.html" class="navbar__links">Éruption Solaires</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/sources.html" class="button">Sources</a>
+                    </li>
                 </ul>
-            </nav>
-            <a class="cta" href="index.html"><button>Accueil</button></a>
-        </header>
+            </div>
+        </nav> 
+
+        <!-- Hero Section -->
+        <div class="main">
+            <div class="main__container">
+              <div class="main__content">
+                <h1>L'EXPLORATION</h1>
+                <h2>DE L'ESPACE</h2>
+                <p>Ce Site Web est utilisé pour montrer les informations qui ont été utilisées lors des capsules vidéos sur ma chaîne YouTube ci-dessous et vous pouvez également trouver les sources des images et de l'information. </p>
+                <button class="main__btn"><a href="https://youtube.com/@exploration-espace">Youtube</a></button>
+              </div>
+              <div class="main__img--container">
+                <img id="main__img" src="undraw_to_the_stars_re_wq2x.svg" />
+              </div>
+            </div>
+          </div>
+
+        <!-- Services Section -->
+        <div class="service">
+            <h1>Explorez les sujets vous-même!</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <h2>Les Trous Noirs</h2>
+                    <p></p>
+                    <button><a href="trous-noir.html">Commencer</a></button>
+                </div>
+                <div class="services__card">
+                    <h2>Les Éruptions Solaires</h2>
+                    <p></p>
+                    <button><a href="eruptions-solaires.html">Commencer</a></button>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
     </body>
 </html>
