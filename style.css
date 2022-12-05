@@ -454,7 +454,7 @@
 
 .banner{
     width: 100%;
-    height: 450vh;
+    height: 460vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(black-hole-6392523_640.jpg);
     background-size: cover;
     background-position: center;
@@ -462,7 +462,7 @@
 
 .banner-1{
     width: 100%;
-    height: 620vh;
+    height: 630vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(solar-flare-978_1280.jpg);
     background-size: cover;
     background-position: center;
@@ -547,7 +547,7 @@
 
 .banner-3{
     width: 100%;
-    height: 400vh;
+    height: 410vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(hd-wallpaper-2695569_1920.jpg);
     background-size: cover;
     background-position: center;
